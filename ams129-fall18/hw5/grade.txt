@@ -1,0 +1,6 @@
+8/10
+
+There are a few issues with your code:
+
+1. The format of your code doesn't match the requested format.
+2. You're missing the last value from your print statement.

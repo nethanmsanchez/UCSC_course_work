@@ -1,0 +1,1 @@
+gfortran gauss.f90 -o gauss.exe

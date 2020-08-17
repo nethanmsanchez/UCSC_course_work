@@ -1,0 +1,30 @@
+Nethaniel Sanchez
+negmsanc
+cmps111
+
+Feature 1- This was the easiest to implement, it was pretty much given with a small tweak
+			of adding "()".
+Feature 2- It took quite a while to figure out how to use fork(), wait(), and execvp()
+			properly. Once I learned how these functions work it was pretty straight 
+			forward to implement, just call fork, run execvp() in the child process, and 
+			wait for the child process to finish in the parent process.
+Feature 3- This was very similar to feature 2.
+Feature 4- This feature took a long time to implement again due to the time it took to
+			learn how to use the system call functions. The implementation follows 2 and 3
+			except you have to make sure to use open() to open the correct file, dup2()
+			to set stdin to read from the file, and then execvp() like features 2 and 3.
+Feature 5- Because I had learned how to use open(), close(), and dup2() in the previous
+			feature it was not very hard to implement this feature. Just instead of
+			changing stdin to the file, I had to change stdout to write to the file.
+Feature 6- This feature took me by far the longest. Once I learned how to use pipe() with
+			dup2() I thought it would be fairly easy. Eventually I figured out that I had
+			have two forks, and after hours realized I also needed to have two wait() calls.
+Feature 7- This feature was fairly easy because it just built off of features 5 and 6, with
+			an extra dup2().
+Feature 8- This feature was not completed and was fairly difficult. I managed to get it
+			working for chained commands with no arguments, but did not have time to 
+			finish.
+Feature 9- This feature was probably the second easiest. Once I figured out a way to get
+			your home directory (getenv("HOME")) it was very simple.
+Feature 10- I did not really even get a good look at this feature due to time constraints.
+			

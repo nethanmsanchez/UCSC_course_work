@@ -1,0 +1,5 @@
+Checker passed. Start with 2.0 points.
+================================
+Error: file my_output.txt is not created by running command java -jar ChessBoard.jar /Users/hadleyblack/Desktop/school/cmps12b-grading/Rubric/my_test.txt my_output.txt
+Final score
+2

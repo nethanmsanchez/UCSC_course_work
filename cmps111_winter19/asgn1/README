@@ -1,0 +1,13 @@
+Nethaniel Sanchez
+Negmsanc
+cmps111 Winter19
+assignment 1
+
+
+Files:
+README- This file, a short description of the files included in lab1
+shell.l- A given file, which was left unmodified.
+argshell.c- the main file of the program. Implements the functionality of a shell. To run
+			use ./argshell after calling make.
+design_doc.txt- A text file with a description of implementation.
+Makefile- a make file that builds the argshell excutable.

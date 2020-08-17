@@ -1,0 +1,11 @@
+Lab02 README
+Nethaniel Sanchez
+negmsanc
+
+Files included:
+README
+FileReverse.java
+Makefile
+
+Used the link in lab2 guide to read on string methods. Ended up using charAt(), length(), and concat(). Also refered back to lab1 guide for help with jar files.
+
